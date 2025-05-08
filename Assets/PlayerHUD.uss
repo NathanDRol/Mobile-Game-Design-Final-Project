@@ -1,0 +1,10 @@
+.HealthIcon {
+    font-size: 14px;
+    background-image: url("project://database/Assets/_Game/Materials/pngtree-red-heart-icon-isolated-png-image_1726594.jpg?fileID=2800000&guid=13115feb770c3fb4bb4d6562f6b5bdf5&type=3#pngtree-red-heart-icon-isolated-png-image_1726594");
+    background-size: 100px 100px;
+    margin-top: 870px;
+}
+
+.dimmed {
+    -unity-background-image-tint-color: rgba(63, 63, 63, 0.95);
+}

@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="GameOverHUDTree" src="project://database/Assets/_Game/HUD/GameOverVisualTree.uxml?fileID=9197481963319205126&amp;guid=e2a1e78c809f0e54ba25572227db91e0&amp;type=3#GameOverVisualTree" />
+    <engine:Template name="PlayerHUDVisualTree" src="project://database/Assets/_Game/HUD/PlayerHUDVisualTree.uxml?fileID=9197481963319205126&amp;guid=498460dc669c43b4f93c2e6f4d17030d&amp;type=3#PlayerHUDVisualTree" />
+    <engine:Template name="MenuMenuHUDVisualTree" src="project://database/Assets/_Game/HUD/MainMenuHUDVisualTree.uxml?fileID=9197481963319205126&amp;guid=bb87c9fbfccdc6e4e9c90d4fa8e21231&amp;type=3#MainMenuHUDVisualTree" />
+    <engine:Instance template="GameOverHUDTree" name="GameOverVisualTree" style="height: 1080px; flex-grow: 1;" />
+    <engine:Instance template="PlayerHUDVisualTree" name="PlayerHUDVisualTree" />
+    <engine:Instance template="MenuMenuHUDVisualTree" name="MainMenuHUDVisualTree" />
+</engine:UXML>

@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/buttonAnimations.uss?fileID=7433441132597879392&amp;guid=15cf7f6122649ad46b3cf42579a149ac&amp;type=3#buttonAnimations" />
+    <engine:VisualElement name="MainMenuHUDVisualTree" class="mainMenuEnd" style="transition-duration: 0.5s; transition-timing-function: ease-in-out-elastic; background-image: url(&quot;project://database/Assets/_Game/Images/manuBanner.png?fileID=2800000&amp;guid=592618fac65901d498d2c42c256ca4f5&amp;type=3#manuBanner&quot;); align-items: center; width: 1190px; height: 1080px; margin-left: 580px; left: 0; transition-property: top;">
+        <engine:Label text="Flash Reaction" name="GameTitleLabel" style="font-size: 100px; color: rgb(255, 255, 255); margin-top: 60px; margin-bottom: 50px; -unity-font-style: bold;" />
+        <engine:Button text="Play" name="PlayButton" class="button" style="width: 500px; height: 150px; margin-top: 10px; font-size: 75px; background-color: rgb(94, 42, 255); color: rgb(255, 255, 255); -unity-text-outline-width: 0; text-shadow: 0 0 0 rgba(0, 0, 0, 0);" />
+        <engine:Button text="Reset" name="ResetButton" class="button" style="width: 500px; height: 150px; margin-top: 20px; font-size: 75px; background-color: rgb(94, 42, 255); color: rgb(255, 255, 255); -unity-text-outline-width: 0; text-shadow: 0 0 0 rgba(0, 0, 0, 0);" />
+        <engine:Button text="Quit" name="QuitButton" class="button" style="width: 500px; height: 150px; margin-top: 20px; font-size: 75px; background-color: rgb(94, 42, 255); color: rgb(255, 255, 255); -unity-text-outline-width: 0; text-shadow: 0 0 0 rgba(0, 0, 0, 0);" />
+        <engine:Label text="High Score: XXX" name="CurrentHighScoreLable" style="font-size: 70px; color: rgb(255, 255, 255); margin-top: 60px; margin-bottom: 50px;" />
+    </engine:VisualElement>
+</engine:UXML>

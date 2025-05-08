@@ -1,0 +1,32 @@
+.button {
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    -unity-font-style: bold;
+}
+
+.button:hover {
+    scale: 1.1 1.1;
+}
+
+.button:active {
+    background-color: rgb(42, 227, 255);
+}
+
+.mainMenuStart {
+    top: -100%;
+}
+
+.mainMenuEnd {
+    top: 0;
+}
+
+.defaultAnimSettings {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out-elastic;
+    position: absolute;
+    transition-property: top;
+}
